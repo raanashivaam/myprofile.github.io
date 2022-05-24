@@ -1,0 +1,56 @@
+<html data-ng-app>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js">
+	div{ background-color:white;
+			}	
+	</script>
+</head>
+<center>
+<body>
+	<div>
+	<img src="rana.JPG"style="width:200px;"><br><br>
+	—(शिवम राणा)—<br>
+	i enjoy looking at beautiful people ❤️<br>
+always 😊smile<br> 
+Delhi 📍<br>
+18+<br>
+	<form> 
+		<input type="radio" ng-model="myvar"value="Photo">
+		Photo
+		<input type="radio" ng-model="myvar"value="Video">
+		Video
+		<input type="radio" ng-model="myvar"value="Reels">
+		Reels
+	
+		<div ng-switch="myvar">
+			<div ng-switch-when="Photo">
+			<img src="rana1.JPG"style="width:200px;">
+			<img src="rana2.JPG"style="width:220px;">
+			<img src="rana3.JPG"style="width:120px;"><br>
+			<img src="rana4.JPG"style="width:200px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<img src="rana5.JPG"style="width:130px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<img src="rana6.JPG"style="width:115px;"><br>
+			<img src="rana7.JPG"style="width:200px;">
+			<img src="rana8.JPG"style="width:113px;">
+		</div>
+
+		
+		<div ng-switch="myvar">
+			<div ng-switch-when="Video"><br>
+			<img src="rana10.jpg"style="width:200px;"><br>
+			<h1>soory!</h1>
+		</div>
+
+		
+		<div ng-switch="myvar">
+			<div ng-switch-when="Reels"><br>
+			<img src="rana10.jpg"style="width:200px;"><br>
+			<h1>soory!</h1>
+			
+		</div>
+	</form>
+	</div>
+</center>
+</body>
+</html>
